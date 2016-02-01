@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="App_Master_Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Grey Media House</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css' />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="wrap">
+                <div class="logo">
+                    <h1><a href="/">GREY MEDIA HOUSE</a></h1>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div>Welcome <asp:Label ID="lblUser" runat="server" Text=""></asp:Label>,<asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click">Logout</asp:LinkButton></div>
+            <div class="adminmenu">
+                <asp:Menu ID="adminMenu" runat="server" Orientation="Horizontal">
+                    <DynamicMenuStyle ForeColor="#FFFFFF" />
+                    <Items>
+                        <asp:MenuItem Text="Dashboard" NavigateUrl="~/Admin/Home.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Client List" NavigateUrl="~/Admin/ClientList/ClientList.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Inquiry" NavigateUrl="~/Admin/Inquiry/Inquiry.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Mailer Master"></asp:MenuItem>
+                        <asp:MenuItem Text="Mailer">
+                            <asp:MenuItem Text="Introduction" NavigateUrl="~/Admin/Mailers/Introduction.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+
+            <div class="footer-bottom">
+                <div class="wrap">
+                    <div class="copy">
+                        <p class="copy">© 2014 by <a href="http://www.greymediahouse.com" target="_blank">Grey Media House</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

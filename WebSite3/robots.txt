@@ -1,0 +1,4 @@
+sitemap: http://www.greymediahouse.com/sitemap.xml
+
+User-agent: *
+Disallow: /admin

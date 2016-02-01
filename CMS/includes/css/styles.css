@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;border:0;font-family:Arial;font-size:13px}
+/*header*/
+.header{width:100%;height:100%;background-color:#e8ebf1;}
+.header_inner{width:1000px; margin:0 auto;padding:25px 0;height:100%;overflow:hidden}
+.header_inner ul{display:inline;float:right;width:650px;font-weight:bold;margin-top:10px}
+.header_inner ul li{display:inline;float:left;margin-left:50px;font-weight:bold;}
+.header_inner ul li a{color:#000;text-decoration:none;}
+.header_inner ul li a:hover{color:#2aacc8}
+.header_inner ul li a.active{color:#2aacc8}
+.header h1 {font-size: 30px;}
+.social{width:180px;height:120px;}
+
+/*banner*/
+.banner{background-color:#81e4ed;width:100%;height:100%;padding:20px 0}
+.bannerInner{width:1000px;margin:0 auto}
+
+/*listView*/
+.listView{width:100%;height:140px;background-color:#e8ebf1;padding:25px 0}
+.listView ul{width:1000px;margin:0 auto}
+.listView ul li{display:inline;float:left;width:220px;margin-right:35px}
+.listView ul li.last{margin-right:0}
+.listView ul li h3{font-size:14px;}
+.listView ul li h3 img{vertical-align: middle;margin-right:10px}
+.listView ul li p{font-size:13px;margin-top:20px}
+.listView ul li span{margin-top:20px;display:inline-block}
+.listView ul li a{color:#2aacc8;text-decoration:none; background:url("../../images/arrow.png") no-repeat scroll left center;padding-left:15px}
+
+
+/*wrapper*/
+.wrapper{width:100%;background-color:#fff}
+/*latestWork*/
+.latestWork{width:1000px;padding-top:20px;margin:0 auto}
+.latest{
+    height: 230px;}
+.latestWork h3{border-bottom:1px solid #dfe1e5;padding-bottom:15px}
+.latestWork ul{margin-top:20px}
+.latestWork ul li{display:inline;float:left;margin-right:40px}
+.latestWork ul li.last{margin-right:0}
+/*content*/
+.content{width:1000px;padding-top:20px;margin:0 auto;height:100%;overflow:hidden;}/*border-top:1px solid #dfe1e5;*/
+
+.content .testimonials{display:inline;float:left;width:500px}
+.content .testimonials h3{padding-bottom: 15px;}
+.content .testimonials p{width:425px}
+.content .clients{display:inline;float:left}
+.content .clients h3{padding-bottom: 15px;}
+
+/*nav*/
+.nav{width:100%;background-color:#e8ebf1;margin-top:40px;}
+.navInner{width:1000px;margin:0 auto;padding:35px 0 45px;height:100%;overflow:hidden;}
+.navInner ul li{display:inline;float:left;width:155px;color:#363636}
+.navInner ul li ul li{line-height:25px}
+.navInner ul li.first{width:285px}
+.navInner ul li.first p{width:235px;text-align: justify;}
+.navInner h3{padding-bottom: 15px;}
+.navInner ul li a{text-decoration:none;color:#363636}
+
+
+/*aboutus*/
+.content h3{padding-bottom:20px;border-bottom:1px solid #dfe1e5;}
+.content .forms2{display:inline;float:left;margin-top:40px}
+.forms2 > p {padding: 10px 0;}
+
+/*services*/
+.blocks{width:440px;height:130px;float:left;margin:20px 30px;background: #5181bc; /* Old browsers */
+background: -moz-linear-gradient(top, #5181bc 0%, #2989d8 5%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5181bc), color-stop(5%,#2989d8), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #5181bc 0%,#2989d8 5%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #5181bc 0%,#2989d8 5%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #5181bc 0%,#2989d8 5%,#7db9e8 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5181bc', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */}
+.blocks > h1 {color: #fff;margin: 10px;font-size: 35px;}
+.singleline{margin-bottom: 43px;margin-top: 43px;}
+.doubleline{margin-bottom: 21px;margin-top: 21px;}
+
+/*contacts*/
+
+.contacts{height:100%;overflow:hidden;width:1000px;margin:0 auto;padding:45px 0 0}
+.contacts h3{padding-bottom:20px;border-bottom:1px solid #dfe1e5;}
+.forms{display:inline;float:left;width:540px;margin-top:40px}
+.forms img{margin-top:20px}
+.maps{display:inline;float:right;width:360px;margin-top:40px}
+span{display:block;padding:15px 0 10px}
+input[type='text']{border:1px solid #b4bac5; height: 35px;
+    width: 450px;}
+h4{padding:35px 0 20px}

@@ -1,0 +1,8 @@
+Data Time:28-03-2015 15:50:36
+Exception Name:SMTP Error
+Event Name:SendEMail
+Exception:   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BusinessComponent.BL_Common.SendEMail(String ToAddress, String FromAddress, String Subject, String Body, String ccAddress, String bccAddress, Attachment Attachment) in f:\Projects\CreativeMediaSolutions\BusinessComponent\BL_Common.cs:line 475
+Inner Exception:
