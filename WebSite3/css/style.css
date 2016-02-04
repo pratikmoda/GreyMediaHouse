@@ -2568,6 +2568,10 @@ span.yellow1 a {
         padding: 10px 25px;
         font-size: 1.4em;
     }
+    #filters2 li span {
+        padding: 10px 25px;
+        font-size: 1.4em;
+    }
 
     .links h4 a {
         font-size: 1em;
@@ -2639,6 +2643,9 @@ span.yellow1 a {
     }
 
     #filters {
+        margin-bottom: 20px;
+    }
+    #filters2 {
         margin-bottom: 20px;
     }
 
@@ -2788,6 +2795,10 @@ span.yellow1 a {
         padding: 10px 25px;
         font-size: 1em;
     }
+    #filters2 li span {
+        padding: 10px 25px;
+        font-size: 1em;
+    }
 
     .links h4 a {
         font-size: 13px;
@@ -2898,7 +2909,9 @@ span.yellow1 a {
     #filters {
         margin-bottom: 20px;
     }
-
+    #filters2 {
+        margin-bottom: 20px;
+    }
     .links {
         padding: 10px;
     }
@@ -3101,6 +3114,10 @@ span.yellow1 a {
         padding: 10px 10px;
         font-size: 1em;
     }
+    #filters2 li span {
+        padding: 10px 10px;
+        font-size: 1em;
+    }
 
     .links h4 a {
         font-size: 12px;
@@ -3213,6 +3230,9 @@ span.yellow1 a {
     }
 
     #filters {
+        margin-bottom: 20px;
+    }
+    #filters2 {
         margin-bottom: 20px;
     }
 
@@ -3417,6 +3437,10 @@ span.yellow1 a {
         padding: 10px 10px;
         font-size: 0.8125em;
     }
+    #filters2 li span {
+        padding: 10px 10px;
+        font-size: 0.8125em;
+    }
 
     .links h4 a {
         font-size: 12px;
@@ -3527,6 +3551,9 @@ span.yellow1 a {
     #filters {
         margin-bottom: 20px;
     }
+    #filters2 {
+        margin-bottom: 20px;
+    }
 
     .links {
         padding: 10px;
@@ -3620,6 +3647,9 @@ span.yellow1 a {
     }
 
     #filters {
+        padding: 0% 5% 5% 5%;
+    }
+    #filters2 {
         padding: 0% 5% 5% 5%;
     }
 
@@ -3811,6 +3841,10 @@ span.yellow1 a {
         padding: 10px 4px;
         font-size: 0.8125em;
     }
+    #filters2 li span {
+        padding: 10px 4px;
+        font-size: 0.8125em;
+    }
 
     .links h4 a {
         font-size: 12px;
@@ -3921,6 +3955,9 @@ span.yellow1 a {
     #filters {
         margin-bottom: 20px;
     }
+    #filters2 {
+        margin-bottom: 20px;
+    }
 
     .links {
         padding: 10px;
@@ -4016,6 +4053,9 @@ span.yellow1 a {
     }
 
     #filters {
+        padding: 0% 5% 5% 5%;
+    }
+    #filters2 {
         padding: 0% 5% 5% 5%;
     }
 
@@ -4223,6 +4263,10 @@ span.yellow1 a {
         padding: 10px 4px;
         font-size: 0.8125em;
     }
+    #filters2 li span {
+        padding: 10px 4px;
+        font-size: 0.8125em;
+    }
 
     .links h4 a {
         font-size: 12px;
@@ -4333,6 +4377,9 @@ span.yellow1 a {
     }
 
     #filters {
+        margin-bottom: 20px;
+    }
+    #filters2 {
         margin-bottom: 20px;
     }
 
@@ -4450,6 +4497,9 @@ span.yellow1 a {
     }
 
     #filters {
+        padding: 0% 5% 5% 5%;
+    }
+    #filters2 {
         padding: 0% 5% 5% 5%;
     }
 
