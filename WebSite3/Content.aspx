@@ -65,6 +65,18 @@
             <li><span class="filter" data-filter="tvdramas">TV Dramas</span></li>
             <li><span class="filter" data-filter="animation">Animation</span></li>
         </ul>
+        <ul id="filters2" class="clearfix">
+            <li><span class="filter active" data-filter="featurefilms tvdramas animation">All</span></li>
+            <li><span class="filter" data-filter="family">Family</span></li>
+            <li><span class="filter" data-filter="drama">Drama</span></li>
+            <li><span class="filter" data-filter="action">Action</span></li>
+            <li><span class="filter" data-filter="social">Social</span></li>
+            <li><span class="filter" data-filter="adventure">Adventure</span></li>
+            <li><span class="filter" data-filter="sports">Sports</span></li>
+            <li><span class="filter" data-filter="comedy">Comedy</span></li>
+            <li><span class="filter" data-filter="horror">Horror</span></li>
+            <li><span class="filter" data-filter="thriller">Thriller</span></li>
+        </ul>
         <div class="clear"></div>
         <div id="portfoliolist" style="" class="">
             <div class="wrapper">
