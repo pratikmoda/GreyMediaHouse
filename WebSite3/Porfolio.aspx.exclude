@@ -4,14 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Grey Media House | Portfolio</title>
+    <title>Grey Media House | Content</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css' />
     <!-- jQuery -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    
     <script type="text/javascript">
         $(function () {
 
@@ -70,7 +69,7 @@
                     <ul>
                         <li><a href="Default.aspx">Home</a></li>
                         <li><a href="About.aspx">About Us</a></li>
-                        <li class="active"><a href="Porfolio.aspx">Portfolio</a></li>
+                        <li class="active"><a href="Content.aspx">Content</a></li>
                         <li><a href="Contact.aspx">Contact</a></li>
                     </ul>
                 </div>
