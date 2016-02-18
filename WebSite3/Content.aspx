@@ -19,7 +19,7 @@
                         targetSelector: '.portfolio',
                         filterSelector: '.filter',
                         effects: ['fade'],
-                        easing: 'snap',
+                        //easing: 'snap',
                         // call the hover effect
                         onMixEnd: filterList.hoverEffect()
                     });
@@ -66,7 +66,7 @@
             <li><span class="filter" data-filter="animation">Animation</span></li>
         </ul>
         <ul id="filters2" class="clearfix">
-            <li><span class="filter active" data-filter="featurefilms tvdramas animation">All</span></li>
+            <li><span class="filter active" data-filter="family drama action social adventure sports comedy horror thriller">All</span></li>
             <li><span class="filter" data-filter="family">Family</span></li>
             <li><span class="filter" data-filter="drama">Drama</span></li>
             <li><span class="filter" data-filter="action">Action</span></li>
@@ -82,30 +82,60 @@
             <div class="wrapper">
                 <div class="portfolio app mix_all" data-cat="app">
                     <div class="portfolio-wrapper">
-                        <a href="http://www.modasexports.com">
-                            <img src="images/modas.jpg" alt="modasexports" /></a>
+                        <a href="#">
+                            <img src="Artwork/A_COACH.jpg" alt="A_COACH" /></a>
                         <div class="links">
-                            <h4><a href="http://www.modasexports.com">Moda's Exports</a></h4>
+                            <h4><a href="#">A Coach</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="http://www.kailaspatil.com">
-                            <img src="images/kailaspatil.jpg" alt="kailaspatil" /></a>
+                        <a href="#">
+                            <img src="Artwork/A_FATHERS_PLEDGE.jpg" alt="kailaspatil" /></a>
                         <div class="links">
-                            <h4><a href="http://www.kailaspatil.com">Kailas Patil - An Athelete</a></h4>
+                            <h4><a href="#">A Father Pledge</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="http://www.velocrushindia.com">
-                            <img src="images/velocrush2.jpg" alt="velocrushindia" /></a>
+                        <a href="#">
+                            <img src="Artwork/AGAINST_ALL_ODDS.jpg" alt="velocrushindia" /></a>
                         <div class="links">
-                            <h4><a href="http://www.velocrushindia.com">VeloCrush India</a></h4>
+                            <h4><a href="#">Against All Odds</a></h4>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="#">
+                            <img src="Artwork/AGENT.jpg" alt="velocrushindia" /></a>
+                        <div class="links">
+                            <h4><a href="#">Agents</a></h4>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="#">
+                            <img src="Artwork/ALI_AND_AYA.jpg" alt="velocrushindia" /></a>
+                        <div class="links">
+                            <h4><a href="#">Ali And Aya</a></h4>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="#">
+                            <img src="Artwork/BE_STRONG.jpg" alt="velocrushindia" /></a>
+                        <div class="links">
+                            <h4><a href="#">Be Strong</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>

@@ -1093,7 +1093,7 @@ p.copy a {
             text-decoration: none;
             color: #666;
             cursor: pointer;
-            font-size: 1.5em;
+            font-size: 1.2em;
         }
 
             #filters li span.active {
@@ -1110,7 +1110,7 @@ p.copy a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
-    width: 31.3%;
+    width: 22.3%;
     margin: 10px 1% 1%;
     display: none;
     float: left;
@@ -1167,7 +1167,7 @@ p.copy a {
 }
 
 .wrapper {
-    padding: 0 1% 3% 1%;
+    padding: 0 9.3% 3% 9.3%;
 }
 
 .portfolio-top {
