@@ -80,7 +80,7 @@
         <div class="clear"></div>
         <div id="portfoliolist" style="" class="">
             <div class="wrapper">
-                <div class="portfolio app mix_all" data-cat="app">
+                <div class="portfolio featurefilms drama mix_all" data-cat="featurefilms">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/A_COACH.jpg" alt="A_COACH" /></a>
