@@ -80,62 +80,92 @@
         <div class="clear"></div>
         <div id="portfoliolist" style="" class="">
             <div class="wrapper">
-                <div class="portfolio featurefilms drama mix_all" data-cat="featurefilms">
+                <div class="portfolio tvdramas sports drama mix_all" data-cat="tvdramas">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/A_COACH.jpg" alt="A_COACH" /></a>
                         <div class="links">
-                            <h4><a href="#">A Coach</a></h4>
+                            <h4><a href="#">A COACH</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
-                            <img src="Artwork/A_FATHERS_PLEDGE.jpg" alt="kailaspatil" /></a>
+                            <img src="Artwork/A_FATHERS_PLEDGE.jpg" alt="A_FATHERS_PLEDGE" /></a>
                         <div class="links">
-                            <h4><a href="#">A Father Pledge</a></h4>
+                            <h4><a href="#">A FATHERS PLEDGE</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
-                            <img src="Artwork/AGAINST_ALL_ODDS.jpg" alt="velocrushindia" /></a>
+                            <img src="Artwork/AGAINST_ALL_ODDS.jpg" alt="AGAINST_ALL_ODDS" /></a>
                         <div class="links">
-                            <h4><a href="#">Against All Odds</a></h4>
+                            <h4><a href="#">AGAINST ALL ODDS</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas action drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
-                            <img src="Artwork/AGENT.jpg" alt="velocrushindia" /></a>
+                            <img src="Artwork/AGENT.jpg" alt="AGENT" /></a>
                         <div class="links">
-                            <h4><a href="#">Agents</a></h4>
+                            <h4><a href="#">AGENT</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas animation mix_all" data-cat="animation" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
-                            <img src="Artwork/ALI_AND_AYA.jpg" alt="velocrushindia" /></a>
+                            <img src="Artwork/ALI_AND_AYA.jpg" alt="ALI_AND_AYA" /></a>
                         <div class="links">
-                            <h4><a href="#">Ali And Aya</a></h4>
+                            <h4><a href="#">ALI AND AYA</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio write design mix_all" data-cat="write" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
-                            <img src="Artwork/BE_STRONG.jpg" alt="velocrushindia" /></a>
+                            <img src="Artwork/BE_STRONG.jpg" alt="BE_STRONG" /></a>
                         <div class="links">
-                            <h4><a href="#">Be Strong</a></h4>
+                            <h4><a href="#">BE STRONG</a></h4>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="#">
+                            <img src="Artwork/BROTHERS.jpg" alt="BROTHERS" /></a>
+                        <div class="links">
+                            <h4><a href="#">BROTHERS</a></h4>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="#">
+                            <img src="Artwork/DESCENDANT.jpg" alt="DESCENDANT" /></a>
+                        <div class="links">
+                            <h4><a href="#">DESCENDANT</a></h4>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="#">
+                            <img src="Artwork/DEVOTED.jpg" alt="DEVOTED" /></a>
+                        <div class="links">
+                            <h4><a href="#">DEVOTED</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
