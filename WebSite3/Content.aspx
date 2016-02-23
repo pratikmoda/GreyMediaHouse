@@ -210,7 +210,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas drama family mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/FAMILY_WARS.jpg" alt="FAMILY WARS" /></a>
@@ -220,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas drama  mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/FEMALE_FRIENDSHIP.jpg" alt="FEMALE FRIENDSHIP" /></a>
@@ -250,7 +250,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas animation mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/HEROES.jpg" alt="HEROES" /></a>
@@ -260,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas drama family mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/HOME.jpg" alt="HOME" /></a>
@@ -300,7 +300,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas comedy mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/LOVE_IN_THE_COUNTRY.jpg" alt="LOVE_IN_THE_COUNTRY" /></a>
@@ -310,7 +310,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas comedy mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/MENS_STORY.jpg" alt="MENS_STORY" /></a>
@@ -330,7 +330,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas action mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/NO_CHOICE.jpg" alt="NO_CHOICE" /></a>
@@ -350,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas comedy action mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/RAIDERS.jpg" alt="RAIDERS" /></a>
@@ -360,7 +360,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
+                <div class="portfolio tvdramas animation mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
                         <a href="#">
                             <img src="Artwork/SANZHAR_AND_KAISAR.jpg" alt="SANZHAR_AND_KAISAR" /></a>
@@ -409,7 +409,7 @@
                             <div class="clear"></div>
                         </div>
                     </div>
-                </div>kdS
+                </div>
                 <div class="clear"></div>
             </div>
         </div>
