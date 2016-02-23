@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/App_Master/Site.master" AutoEventWireup="true" CodeFile="Content.aspx.cs" Inherits="Content" %>
+﻿<%@ Page Title="Content" Language="C#" MasterPageFile="~/App_Master/Site.master" AutoEventWireup="true" CodeFile="Content.aspx.cs" Inherits="Content" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
@@ -82,80 +82,80 @@
             <div class="wrapper">
                 <div class="portfolio tvdramas sports drama mix_all" data-cat="tvdramas">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/a-coach.aspx">
                             <img src="Artwork/A_COACH.jpg" alt="A_COACH" /></a>
                         <div class="links">
-                            <h4><a href="#">A COACH</a></h4>
+                            <h4><a href="Content/a-coach.aspx">A COACH</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/a-fathers-pledge.aspx">
                             <img src="Artwork/A_FATHERS_PLEDGE.jpg" alt="A_FATHERS_PLEDGE" /></a>
                         <div class="links">
-                            <h4><a href="#">A FATHERS PLEDGE</a></h4>
+                            <h4><a href="Content/a-fathers-pledge.aspx">A FATHERS PLEDGE</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/against-all-odds.aspx">
                             <img src="Artwork/AGAINST_ALL_ODDS.jpg" alt="AGAINST_ALL_ODDS" /></a>
                         <div class="links">
-                            <h4><a href="#">AGAINST ALL ODDS</a></h4>
+                            <h4><a href="Content/against-all-odds.aspx">AGAINST ALL ODDS</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas action drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/agent.aspx">
                             <img src="Artwork/AGENT.jpg" alt="AGENT" /></a>
                         <div class="links">
-                            <h4><a href="#">AGENT</a></h4>
+                            <h4><a href="Content/agent.aspx">AGENT</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas animation mix_all" data-cat="animation" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/ali-and-aya.aspx">
                             <img src="Artwork/ALI_AND_AYA.jpg" alt="ALI_AND_AYA" /></a>
                         <div class="links">
-                            <h4><a href="#">ALI AND AYA</a></h4>
+                            <h4><a href="Content/ali-and-aya.aspx">ALI AND AYA</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/be-strong.aspx">
                             <img src="Artwork/BE_STRONG.jpg" alt="BE_STRONG" /></a>
                         <div class="links">
-                            <h4><a href="#">BE STRONG</a></h4>
+                            <h4><a href="Content/be-strong.aspx">BE STRONG</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/brothers.aspx">
                             <img src="Artwork/BROTHERS.jpg" alt="BROTHERS" /></a>
                         <div class="links">
-                            <h4><a href="#">BROTHERS</a></h4>
+                            <h4><a href="Content/brothers.aspx">BROTHERS</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/descendants.aspx">
                             <img src="Artwork/DESCENDANT.jpg" alt="DESCENDANT" /></a>
                         <div class="links">
-                            <h4><a href="#">DESCENDANT</a></h4>
+                            <h4><a href="Content/descendants.aspx">DESCENDANT</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>

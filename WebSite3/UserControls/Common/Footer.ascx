@@ -44,9 +44,9 @@
         </div>
         <div class="footer-nav">
             <ul>
-                <li><a href="Default.aspx">Home</a></li>
-                <li><a href="Content.aspx">Content</a></li>
-                <li><a href="Contact.aspx">Contact</a></li>
+                <li><a href="/Default.aspx">Home</a></li>
+                <li><a href="/Content.aspx">Content</a></li>
+                <li><a href="/Contact.aspx">Contact</a></li>
             </ul>
         </div>
         <div class="clear"></div>
