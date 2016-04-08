@@ -491,19 +491,28 @@ namespace BusinessComponent
         public void LogFile(string sExceptionName, string sEventName, Exception ex)
         {
 
-            string filename = ConfigurationManager.AppSettings["LogFilePath"] + DateTime.Now.ToString("MMM_yyyy") + ".txt";
+            string filename = HttpContext.Current.Server.MapPath(ConfigurationManager.AppSettings["LogFilePath"]) + DateTime.Now.ToString("MMM_yyyy") + ".txt";
 
 
             if (!File.Exists(filename))
             {
                 File.Create(filename);
                 TextWriter log = new StreamWriter(filename);
+
+
+                // Write to the file:
+                log.Write("-------------------------------------------------");
+                log.WriteLine("Data Time:" + DateTime.Now.ToString());
+                log.WriteLine("Exception Name:" + sExceptionName);
+                log.WriteLine("Event Name:" + sEventName);
+                log.WriteLine("Exception:" + ex.StackTrace);
+                log.WriteLine("Inner Exception:" + ex.InnerException);
+                // Close the stream:
                 log.Close();
             }
             else if (File.Exists(filename))
             {
                 TextWriter log = new StreamWriter(filename);
-
 
                 // Write to the file:
                 log.Write("-------------------------------------------------");

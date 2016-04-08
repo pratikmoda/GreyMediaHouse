@@ -43,7 +43,7 @@ public partial class Contact : System.Web.UI.Page
 
                     //Email to Client
                     StreamReader sr2 = new StreamReader(@Server.MapPath("/Mailers/ClientServiceInquiry.html"));
-                    string _MailBody2 = sr.ReadToEnd();
+                    string _MailBody2 = sr2.ReadToEnd();
                     string MailBody2 = _MailBody2.Replace("XXFIRSTNAMEXX", txtName.Text);
                     objContact.SendEMail(txtEmail.Text, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
 
