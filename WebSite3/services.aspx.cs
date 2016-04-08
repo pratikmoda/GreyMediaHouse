@@ -107,40 +107,48 @@ public partial class services : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        if (Validat())
+        try
         {
-            Services objServices = new Services();
-
-            objServices.FirstName = txtFirstName.Text;
-            objServices.LastName = txtLastName.Text;
-            objServices.CompanyName = txtCompanyName.Text;
-            objServices.Email = txtEmail.Text;
-            objServices.Contact = txtContact.Text;
-            objServices.Country = txtCountry.Text;
-            objServices.Message = txtMessage.Text;
-
-            int result = objContact.addServicesInquiry(objServices);
-
-            if (result > 0)
+            if (Validat())
             {
-                divThanku.Visible = true;
-                divThanku.Focus();
-                Clear();
+                Services objServices = new Services();
 
-                //Email to GMH
-                StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHServiceInquiry.html");
-                string _MailBody = sr.ReadToEnd();
-                string MailBody = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text).Replace("XXLASTNAMEXX", txtLastName.Text).Replace("XXCOMPANYNAMEXX", txtCompanyName.Text)
-                    .Replace("XXCOUNTRYXX", txtCountry.Text).Replace("XXEMAILXX", txtEmail.Text).Replace("XXCONTACTXX", txtContact.Text);
-                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "GMH Service Enquiry", MailBody, null, null, null);
+                objServices.FirstName = txtFirstName.Text;
+                objServices.LastName = txtLastName.Text;
+                objServices.CompanyName = txtCompanyName.Text;
+                objServices.Email = txtEmail.Text;
+                objServices.Contact = txtContact.Text;
+                objServices.Country = txtCountry.Text;
+                objServices.Message = txtMessage.Text;
 
-                //Email to Client
-                StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
-                string _MailBody2 = sr.ReadToEnd();
-                string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text);
-                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
+                int result = objContact.addServicesInquiry(objServices);
+
+                if (result > 0)
+                {
+                    divThanku.Visible = true;
+                    divThanku.Focus();
+                    Clear();
+
+                    //Email to GMH
+                    StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHServiceInquiry.html");
+                    string _MailBody = sr.ReadToEnd();
+                    string MailBody = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text).Replace("XXLASTNAMEXX", txtLastName.Text).Replace("XXCOMPANYNAMEXX", txtCompanyName.Text)
+                        .Replace("XXCOUNTRYXX", txtCountry.Text).Replace("XXEMAILXX", txtEmail.Text).Replace("XXCONTACTXX", txtContact.Text);
+                    objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "GMH Service Enquiry", MailBody, null, null, null);
+
+                    //Email to Client
+                    StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
+                    string _MailBody2 = sr.ReadToEnd();
+                    string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text);
+                    objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
+                }
             }
         }
+        catch (Exception ex)
+        {
+            objContact.LogFile("services.aspx.cs", "btnSubmit_Click", ex);
+        }
+
 
     }
     private void Clear()

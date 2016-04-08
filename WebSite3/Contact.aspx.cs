@@ -23,29 +23,37 @@ public partial class Contact : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        if (Validat())
+        try
         {
-            int result = objContact.addInquiry(txtName.Text.Trim(), txtEmail.Text.Trim(), txtSubject.Text.Trim(), txtMessage.Text.Trim());
-
-            if (result > 0)
+            if (Validat())
             {
-                divThanku.Visible = true;
-                divThanku.Focus();
-                Clear();
+                int result = objContact.addInquiry(txtName.Text.Trim(), txtEmail.Text.Trim(), txtSubject.Text.Trim(), txtMessage.Text.Trim());
 
-                //Email to GMH
-                StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHContact.html");
-                string _MailBody = sr.ReadToEnd();
-                string MailBody = _MailBody.Replace("XXNAMEXX", txtName.Text).Replace("XXMESSAGEXX", txtMessage.Text);
-                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", txtSubject.Text, MailBody, null, null, null);
+                if (result > 0)
+                {
+                    divThanku.Visible = true;
+                    divThanku.Focus();
+                    Clear();
 
-                //Email to Client
-                StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
-                string _MailBody2 = sr.ReadToEnd();
-                string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtName.Text);
-                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
+                    //Email to GMH
+                    StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHContact.html");
+                    string _MailBody = sr.ReadToEnd();
+                    string MailBody = _MailBody.Replace("XXNAMEXX", txtName.Text).Replace("XXMESSAGEXX", txtMessage.Text);
+                    objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", txtSubject.Text, MailBody, null, null, null);
+
+                    //Email to Client
+                    StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
+                    string _MailBody2 = sr.ReadToEnd();
+                    string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtName.Text);
+                    objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
+                }
             }
         }
+        catch (Exception ex)
+        {
+            objContact.LogFile("Contact.aspx.cs", "btnSubmit_Click", ex);
+        }
+
     }
     protected void Clear()
     {
