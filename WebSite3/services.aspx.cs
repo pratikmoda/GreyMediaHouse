@@ -1,6 +1,8 @@
 ﻿using BusinessComponent;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,6 +11,7 @@ using System.Web.UI.WebControls;
 public partial class services : System.Web.UI.Page
 {
     BL_Contact objContact = new BL_Contact();
+    string FromEmail = ConfigurationManager.AppSettings["FromEmail"].ToString();
     protected void Page_Load(object sender, EventArgs e)
     {
         divThanku.Visible = false;
@@ -123,6 +126,19 @@ public partial class services : System.Web.UI.Page
                 divThanku.Visible = true;
                 divThanku.Focus();
                 Clear();
+
+                //Email to GMH
+                StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHServiceInquiry.html");
+                string _MailBody = sr.ReadToEnd();
+                string MailBody = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text).Replace("XXLASTNAMEXX", txtLastName.Text).Replace("XXCOMPANYNAMEXX", txtCompanyName.Text)
+                    .Replace("XXCOUNTRYXX", txtCountry.Text).Replace("XXEMAILXX", txtEmail.Text).Replace("XXCONTACTXX", txtContact.Text);
+                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "GMH Service Enquiry", MailBody, null, null, null);
+
+                //Email to Client
+                StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
+                string _MailBody2 = sr.ReadToEnd();
+                string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text);
+                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
             }
         }
 

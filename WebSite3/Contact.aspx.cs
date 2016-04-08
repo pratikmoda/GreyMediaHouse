@@ -1,7 +1,9 @@
 ﻿using BusinessComponent;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -11,6 +13,7 @@ public partial class Contact : System.Web.UI.Page
 {
     BL_Contact objContact = new BL_Contact();
     BL_Common objCommon = new BL_Common();
+    string FromEmail = ConfigurationManager.AppSettings["FromEmail"].ToString();
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!Page.IsPostBack)
@@ -29,6 +32,18 @@ public partial class Contact : System.Web.UI.Page
                 divThanku.Visible = true;
                 divThanku.Focus();
                 Clear();
+
+                //Email to GMH
+                StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHContact.html");
+                string _MailBody = sr.ReadToEnd();
+                string MailBody = _MailBody.Replace("XXNAMEXX", txtName.Text).Replace("XXMESSAGEXX", txtMessage.Text);
+                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", txtSubject.Text, MailBody, null, null, null);
+
+                //Email to Client
+                StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
+                string _MailBody2 = sr.ReadToEnd();
+                string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtName.Text);
+                objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
             }
         }
     }
