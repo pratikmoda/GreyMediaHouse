@@ -3,8 +3,7 @@
     <div class="wrap">
         <div class="section group">
             <div class="col_1_of_3 span_1_of_3">
-                <h3>About Us</h3>
-                <p>Grey Media House (GMH) is a fully integrated electronic, print and internet marketing communication solution provider focused on effectively servicing the needs of companies looking at product and brand promotion through print and online media.</p>
+                &nbsp;
             </div>
             <div class="col_1_of_3 span_1_of_3">
 
@@ -46,6 +45,7 @@
             <ul>
                 <li><a href="/Default.aspx">Home</a></li>
                 <li><a href="/Content.aspx">Content</a></li>
+                <li><a href="/services.aspx">services</a></li>
                 <li><a href="/Contact.aspx">Contact</a></li>
             </ul>
         </div>

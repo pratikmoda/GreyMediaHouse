@@ -16,16 +16,15 @@
             <div class="section group">
                 <div class="section group">
                     <div class="cont span_2_of_about" style="float: none; margin: 0 auto;">
-                        <h3>Grey Media House (GMH) is a fully integrated electronic, print and internet marketing communication solution provider focused on effectively servicing the needs of companies looking at product and brand promotion through print and online media.</h3>
-                        <div class="section group example">
-                            <div class="col_1_of_2 ">
-                                <p>Our company provides unique and advanced marketing solutions for promotion and growth of the brand and the company.</p>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
+                        <h3>Grey Media House (GMH) is a full fledged marketing & distribution company
+formed by executives with core experience in production, marketing &
+distribution of Films & Television content. The company specializes in
+connecting content producers to reach out to appropriate Television and
+Digital channels across Asia, Europe, Middle East, Africa and Latin America.    </h3>
+
                         <div class="clear"></div>
                         <br />
-                        <h3>We create, develop and reinforce product awareness.</h3>
+                        <h3>We Aggregate, Process and Deliver the right content to the right people.</h3>
                     </div>
 
                 </div>

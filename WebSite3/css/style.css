@@ -4663,3 +4663,9 @@ span.yellow1 a {
     #divList table {
         width: 100%;
     }
+
+/*PRATIK*/
+.contserv > h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
