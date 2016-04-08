@@ -33,19 +33,21 @@ public partial class Contact : System.Web.UI.Page
                 {
                     divThanku.Visible = true;
                     divThanku.Focus();
-                    Clear();
+
 
                     //Email to GMH
-                    StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHContact.html");
+                    StreamReader sr = new StreamReader(@Server.MapPath("/Mailers/GMHContact.html"));
                     string _MailBody = sr.ReadToEnd();
-                    string MailBody = _MailBody.Replace("XXNAMEXX", txtName.Text).Replace("XXMESSAGEXX", txtMessage.Text);
+                    string MailBody = _MailBody.Replace("XXNAMEXX", txtName.Text).Replace("XXEMAILXX", txtEmail.Text).Replace("XXMESSAGEXX", txtMessage.Text);
                     objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", txtSubject.Text, MailBody, null, null, null);
 
                     //Email to Client
-                    StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
+                    StreamReader sr2 = new StreamReader(@Server.MapPath("/Mailers/ClientServiceInquiry.html"));
                     string _MailBody2 = sr.ReadToEnd();
-                    string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtName.Text);
-                    objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
+                    string MailBody2 = _MailBody2.Replace("XXFIRSTNAMEXX", txtName.Text);
+                    objContact.SendEMail(txtEmail.Text, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
+
+                    Clear();
                 }
             }
         }

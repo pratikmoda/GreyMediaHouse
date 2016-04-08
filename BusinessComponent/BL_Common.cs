@@ -471,7 +471,7 @@ namespace BusinessComponent
 
                 SmtpClient mailClient = new SmtpClient(host, port);
                 mailClient.Credentials = new NetworkCredential(userame, password);
-
+                mailClient.EnableSsl = true;
                 //insert code to log emailer in SQL
                 mailClient.Send(msg);
                 return 1;
@@ -506,6 +506,7 @@ namespace BusinessComponent
 
 
                 // Write to the file:
+                log.Write("-------------------------------------------------");
                 log.WriteLine("Data Time:" + DateTime.Now.ToString());
                 log.WriteLine("Exception Name:" + sExceptionName);
                 log.WriteLine("Event Name:" + sEventName);

@@ -127,20 +127,22 @@ public partial class services : System.Web.UI.Page
                 {
                     divThanku.Visible = true;
                     divThanku.Focus();
-                    Clear();
+                   
 
                     //Email to GMH
-                    StreamReader sr = new StreamReader("http://www.greymediahouse.com/Mailers/GMHServiceInquiry.html");
+                    StreamReader sr = new StreamReader(@Server.MapPath("/Mailers/GMHServiceInquiry.html"));
                     string _MailBody = sr.ReadToEnd();
                     string MailBody = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text).Replace("XXLASTNAMEXX", txtLastName.Text).Replace("XXCOMPANYNAMEXX", txtCompanyName.Text)
                         .Replace("XXCOUNTRYXX", txtCountry.Text).Replace("XXEMAILXX", txtEmail.Text).Replace("XXCONTACTXX", txtContact.Text);
                     objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "GMH Service Enquiry", MailBody, null, null, null);
 
                     //Email to Client
-                    StreamReader sr2 = new StreamReader("http://www.greymediahouse.com/Mailers/ClientServiceInquiry.html");
+                    StreamReader sr2 = new StreamReader(@Server.MapPath("/Mailers/ClientServiceInquiry.html"));
                     string _MailBody2 = sr.ReadToEnd();
-                    string MailBody2 = _MailBody.Replace("XXFIRSTNAMEXX", txtFirstName.Text);
+                    string MailBody2 = _MailBody2.Replace("XXFIRSTNAMEXX", txtFirstName.Text);
                     objContact.SendEMail(FromEmail, "no-reply@greymediahouse.com", "Grey Media House", MailBody2, null, null, null);
+
+                    Clear();
                 }
             }
         }

@@ -162,50 +162,50 @@
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/devoted.aspx">
                             <img src="Artwork/DEVOTED.jpg" alt="DEVOTED" /></a>
                         <div class="links">
-                            <h4><a href="#">DEVOTED</a></h4>
+                            <h4><a href="Content/devoted.aspx">DEVOTED</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/dream.aspx">
                             <img src="Artwork/DREAM.jpg" alt="DREAM" /></a>
                         <div class="links">
-                            <h4><a href="#">DREAM</a></h4>
+                            <h4><a href="Content/dream.aspx">DREAM</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/duty.aspx">
                             <img src="Artwork/DUTY.jpg" alt="DUTY" /></a>
                         <div class="links">
-                            <h4><a href="#">DUTY</a></h4>
+                            <h4><a href="Content/duty.aspx">DUTY</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/emergency.aspx">
                             <img src="Artwork/EMERGENCY.jpg" alt="EMERGENCY" /></a>
                         <div class="links">
-                            <h4><a href="#">EMERGENCY</a></h4>
+                            <h4><a href="Content/emergency.aspx">EMERGENCY</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio tvdramas drama mix_all" data-cat="tvdramas" style="display: inline-block; opacity: 1;">
                     <div class="portfolio-wrapper">
-                        <a href="#">
+                        <a href="Content/entrapped.aspx">
                             <img src="Artwork/ENTRAPPED.jpg" alt="ENTRAPPED" /></a>
                         <div class="links">
-                            <h4><a href="#">ENTRAPPED</a></h4>
+                            <h4><a href="Content/entrapped.aspx">ENTRAPPED</a></h4>
                             <div class="clear"></div>
                         </div>
                     </div>
